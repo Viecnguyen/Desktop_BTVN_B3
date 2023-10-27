@@ -19,8 +19,7 @@ namespace Bài_tập_về_nhà_buổi_3
 
         private void Form2_Load(object sender, EventArgs e)
         {
-            //bunf quas hihi
-            //hj
+            
         }
     }
 }
