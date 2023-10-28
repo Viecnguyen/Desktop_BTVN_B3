@@ -121,6 +121,7 @@
             this.buttoncompare.TabIndex = 7;
             this.buttoncompare.Text = "Compare";
             this.buttoncompare.UseVisualStyleBackColor = true;
+            this.buttoncompare.Click += new System.EventHandler(this.buttoncompare_Click);
             // 
             // buttonconcat
             // 
@@ -130,6 +131,7 @@
             this.buttonconcat.TabIndex = 8;
             this.buttonconcat.Text = "Concat";
             this.buttonconcat.UseVisualStyleBackColor = true;
+            this.buttonconcat.Click += new System.EventHandler(this.buttonconcat_Click);
             // 
             // buttoninsert
             // 
@@ -139,6 +141,7 @@
             this.buttoninsert.TabIndex = 9;
             this.buttoninsert.Text = "Insert";
             this.buttoninsert.UseVisualStyleBackColor = true;
+            this.buttoninsert.Click += new System.EventHandler(this.buttoninsert_Click);
             // 
             // buttondelete
             // 
@@ -148,6 +151,7 @@
             this.buttondelete.TabIndex = 10;
             this.buttondelete.Text = "Delete";
             this.buttondelete.UseVisualStyleBackColor = true;
+            this.buttondelete.Click += new System.EventHandler(this.buttondelete_Click);
             // 
             // buttoncompare2
             // 
@@ -157,6 +161,7 @@
             this.buttoncompare2.TabIndex = 11;
             this.buttoncompare2.Text = "COMPARE";
             this.buttoncompare2.UseVisualStyleBackColor = true;
+            this.buttoncompare2.Click += new System.EventHandler(this.buttoncompare2_Click);
             // 
             // buttonindexof
             // 
@@ -166,6 +171,7 @@
             this.buttonindexof.TabIndex = 12;
             this.buttonindexof.Text = "IndexOf";
             this.buttonindexof.UseVisualStyleBackColor = true;
+            this.buttonindexof.Click += new System.EventHandler(this.buttonindexof_Click);
             // 
             // buttonsubstring
             // 
@@ -184,6 +190,7 @@
             this.buttonstop.TabIndex = 14;
             this.buttonstop.Text = "Stop";
             this.buttonstop.UseVisualStyleBackColor = true;
+            this.buttonstop.Click += new System.EventHandler(this.buttonstop_Click);
             // 
             // Form2
             // 
