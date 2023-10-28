@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtboxhoten = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.buttonin = new System.Windows.Forms.Button();
@@ -51,15 +51,14 @@
             this.label1.Size = new System.Drawing.Size(176, 25);
             this.label1.TabIndex = 0;
             this.label1.Text = "Nhập Họ và Tên:";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
-            // textBox1
+            // txtboxhoten
             // 
-            this.textBox1.Location = new System.Drawing.Point(130, 68);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(494, 47);
-            this.textBox1.TabIndex = 1;
+            this.txtboxhoten.Location = new System.Drawing.Point(130, 68);
+            this.txtboxhoten.Multiline = true;
+            this.txtboxhoten.Name = "txtboxhoten";
+            this.txtboxhoten.Size = new System.Drawing.Size(494, 47);
+            this.txtboxhoten.TabIndex = 1;
             // 
             // label2
             // 
@@ -90,6 +89,7 @@
             this.buttonin.TabIndex = 4;
             this.buttonin.Text = "In Lời giới thiệu";
             this.buttonin.UseVisualStyleBackColor = true;
+            this.buttonin.Click += new System.EventHandler(this.buttonin_Click);
             // 
             // buttonholot
             // 
@@ -99,6 +99,7 @@
             this.buttonholot.TabIndex = 5;
             this.buttonholot.Text = "Họ lót";
             this.buttonholot.UseVisualStyleBackColor = true;
+            this.buttonholot.Click += new System.EventHandler(this.buttonholot_Click_1);
             // 
             // buttonten
             // 
@@ -108,6 +109,7 @@
             this.buttonten.TabIndex = 6;
             this.buttonten.Text = "Tên";
             this.buttonten.UseVisualStyleBackColor = true;
+            this.buttonten.Click += new System.EventHandler(this.buttonten_Click_1);
             // 
             // buttondemtu
             // 
@@ -117,6 +119,7 @@
             this.buttondemtu.TabIndex = 7;
             this.buttondemtu.Text = "Đếm từ";
             this.buttondemtu.UseVisualStyleBackColor = true;
+            this.buttondemtu.Click += new System.EventHandler(this.buttondemtu_Click_1);
             // 
             // buttonhoa
             // 
@@ -126,6 +129,7 @@
             this.buttonhoa.TabIndex = 8;
             this.buttonhoa.Text = "Hoa Đầu từ";
             this.buttonhoa.UseVisualStyleBackColor = true;
+            this.buttonhoa.Click += new System.EventHandler(this.buttonhoa_Click);
             // 
             // buttonxoa
             // 
@@ -135,6 +139,7 @@
             this.buttonxoa.TabIndex = 9;
             this.buttonxoa.Text = "Xóa";
             this.buttonxoa.UseVisualStyleBackColor = true;
+            this.buttonxoa.Click += new System.EventHandler(this.buttonxoa_Click);
             // 
             // buttondung
             // 
@@ -159,7 +164,7 @@
             this.Controls.Add(this.buttonin);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtboxhoten);
             this.Controls.Add(this.label1);
             this.Name = "Form4";
             this.Text = "Form4";
@@ -171,7 +176,7 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtboxhoten;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.Button buttonin;
